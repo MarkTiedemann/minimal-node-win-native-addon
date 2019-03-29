@@ -1,7 +1,5 @@
 param($arch)
 
-.\variables.ps1
-
 $visual_studio_root = "C:\Program Files (x86)\Microsoft Visual Studio\$env:visual_studio_version\$env:visual_studio_edition"
 $visual_cpp_root = "$visual_studio_root\VC\Tools\MSVC\$env:visual_cpp_version"
 
